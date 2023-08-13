@@ -3,10 +3,10 @@ import '../styles/App.css';
 
 const App = () => {
   return (
-    <div id="main">
+    <div>
       <Heading />
       <SubHeading />
-      <InputQuery onChange={(e) =>setQuery(e.target.value)} />
+      <InputQuery />
       <SubmitButton />
     </div>
   )
