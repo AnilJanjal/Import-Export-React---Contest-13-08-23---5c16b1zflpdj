@@ -1,12 +1,13 @@
 import React, { Component, useState } from "react";
 import '../styles/App.css';
-import Heading from "./components/Heading";
-import SubHeading from "./components/SubHeading";
-import InputQuery from "./components/InputQuery";
-import SubmitButton from "./components/SubmitButton";
+import Heading from './Heading';
+import InputQuery from './InputQuery';
+import SubHeading from './SubHeading';
+import SubmitButton from './SubmitButton';
+
 const App = () => {
   return (
-    <div>
+    <div id="main">
       <Heading />
       <SubHeading />
       <InputQuery />
@@ -14,5 +15,7 @@ const App = () => {
     </div>
   )
 }
+
+export default App;
 
 
